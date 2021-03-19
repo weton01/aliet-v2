@@ -1,1 +1,7 @@
-# aliet-v2
+## @liet
+
+## Installation
+ 
+```text
+npm install typedoc --save-dev
+```
