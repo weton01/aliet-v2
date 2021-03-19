@@ -2,7 +2,7 @@
   "name": "aliet-v2",
   "version": "1.0.0",
   "description": "```text\r npm install typedoc --save-dev\r ```",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "directories": {
     "doc": "docs"
   },
