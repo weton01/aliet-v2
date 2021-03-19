@@ -27,5 +27,13 @@
     "ts-node-dev": "^1.1.6",
     "typedoc": "^0.20.32",
     "typescript": "^4.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weton01/aliet-v2.git"
+  },
+  "homepage": "https://github.com/weton01/aliet-v2#readme",
+  "bugs": {
+    "url": "https://github.com/weton01/aliet-v2/issues"
   }
 }
