@@ -1,24 +1,11 @@
 {
-  "name": "aliet",
+  "name": "aliet-v2",
   "version": "1.0.0",
-  "description": "",
-  "main": "./build/index.js",
-  "types": "./build/index.d.ts",
-  "files": [
-    "build/**/*"
-  ],
-  "scripts": {
-    "start": "ts-node-dev src/index.ts",
-    "clean": "del-cli ./build/*",
-    "build": "npm run clean && tsc",
-    "doc": "jsdoc -c jsdoc.json"
+  "description": "```text\r npm install typedoc --save-dev\r ```",
+  "main": "index.ts",
+  "directories": {
+    "doc": "docs"
   },
-  "keywords": [
-    "aliet",
-    "@liet"
-  ],
-  "author": "Wellington Campana Ferreira",
-  "license": "MIT",
   "devDependencies": {
     "del-cli": "^3.0.0",
     "typescript": "^3.8.3"
@@ -28,12 +15,18 @@
     "typedoc": "^0.20.32",
     "typescript": "^4.2.3"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/weton01/aliet-v2.git"
   },
-  "homepage": "https://github.com/weton01/aliet-v2#readme",
+  "keywords": [],
+  "author": "Wellington Campana Ferreira",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/weton01/aliet-v2/issues"
-  }
+  },
+  "homepage": "https://github.com/weton01/aliet-v2#readme"
 }
