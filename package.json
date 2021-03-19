@@ -11,12 +11,16 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "aliet": "^1.0.0",
     "ts-node-dev": "^1.1.6",
     "typedoc": "^0.20.32",
     "typescript": "^4.2.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "del-cli ./build/*",
+    "build": "npm run clean && tsc",
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "repository": {
     "type": "git",
