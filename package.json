@@ -1,5 +1,5 @@
 {
-  "name": "aliet-v2",
+  "name": "aliet-v2-2",
   "version": "1.0.0",
   "description": "```text\r npm install typedoc --save-dev\r ```",
   "main": "src/index.ts",
